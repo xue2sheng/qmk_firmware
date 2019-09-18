@@ -1,6 +1,16 @@
-![the-frey-layout](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/keyboard-layout.jpg)
+### Deployment
+```
+make crkbd/rev1:littlekeyboards:avrdud
+```
 
-# Keyboard layout by the-frey
+### Pull updates from littlekeyboards
+```
+git remote add upstream git@github.com:littlekeyboards/qmk_firmware.git
+git fetch upstream
+git merge upstream/master
+```
+
+### Keyboard layout by the-frey
 
 This is a layout that allows access to all the paren keys easily, has a tab on the lower layer (for SUPER-TAB app switching) and some utility features like PGUP/PGDOWN and HOME/END.
 
