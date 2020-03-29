@@ -71,7 +71,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
        LSFT,     Z,     X,     C,     V,     B,                      N,     M,  COMM,   DOT,  SLSH,  RSEN,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                 ALTDEL,NUMSPC,NAVENT,   ALTCON,CODSPC,GUIDEL \
+                                 ALTDEL,NUMSPC,NAVENT,   SPC,CODSPC,GUIDEL \
                               //`--------------------'  `--------------------'
   ),
 
