@@ -10,7 +10,7 @@ Consult [QMK documentation](https://beta.docs.qmk.fm/tutorial/newbs_getting_star
 
 ### Deployment
 ```
-make crkbd/rev1:xue2sheng
+make crkbd/rev1:xue2sheng:avrdude
 ```
 or
 ```
