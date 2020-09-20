@@ -1,12 +1,22 @@
 ## Personal mapping
 
-Clone from littlekeyboards Viet Pham (frontdesk@littlekeyboards.zendesk.com). 
+Clone from littlekeyboards Viet Pham (frontdesk@littlekeyboards.zendesk.com). Just clone getting its recursive modules:
 
-Consult [QMK documentation](https://beta.docs.qmk.fm/tutorial/newbs_getting_started)
+```
+git clone --recurse-submodule git@github.com:xue2sheng/qmk_firmware.git
+``` 
+
+Consult [QMK documentation](https://beta.docs.qmk.fm/tutorial/newbs_getting_started) to configure the environment.
 
 ### Deployment
 ```
-make crkbd/rev1:littlekeyboards:avrdud
+make crkbd/rev1:xue2sheng
+```
+or
+```
+qmk config user.keyboard=crkbd/rev1
+qmk config user.keymap=xue2sheng
+qmk compile
 ```
 
 ### Pull updates from littlekeyboards
